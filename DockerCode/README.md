@@ -1,4 +1,4 @@
-# Docker-slide-code
+# Docker-code
 
 This repo contain basic web application folders to use for practicing Dockers for containerizing app
 
