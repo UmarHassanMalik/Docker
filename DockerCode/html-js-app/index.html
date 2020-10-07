@@ -1,23 +1,21 @@
+<!DOCTYPE html>
 <html>
-
-<head>
-	<title>Containerized App </title>
-
-</head>
-<body>
-	<h1>This is  containerized Web Application Testing</h1>   
-	<br/>
-	<img src="images/docker.png" width="300" height="300">
-
-<style>
-		#for {background-color: Lightblue;}
+		<style>
+		#for{
+			color: lightblue;
+			text-align: center;
+		}
 		
+        body  {
+        background-image: url("Grey-website-background.png");
+        
+        }
 		</style>
 		
-		
-		<form id="for" >
-			<legend> <b>Personal Details</b>  </legend>
-			<p> First Name
+		<h3 id="for">FORMS </h3> 
+		<form  id="for">
+			<p><legend> <b>Personal Details</b>  </legend></p>
+			<p > First Name
 			<input type="text" name="First Name"size="15" maxlength="30" required/>
 			<br/>
 			 Middle Name
@@ -32,25 +30,27 @@
 			<br/>
 			Date Of Birth
 			<input type="date" name="DOB"/>
-			</p>
-			<p>
+			</br>
 			Enter Password
 			<input type="password" name="Enter Password"size="15"maxlength="30"/>
 			<br/>
 			Re-Enter Password
 			<input type="password" name="Enter Password"size="15"maxlength="30"/>
-			</p>
+		</br>
 			
-			<p>
-			Interests (You can Choose multiple Options)<br/>
-			<br/><label><input type="checkbox" name="interests" value="read" />Reading</label>
-			<br/><label><input type="checkbox" name="interests" value="wri" />Writing</label>
-			<br/><label><input type="checkbox" name="interests" value="crc" />Cricket</label>
-			<br/><label><input type="checkbox" name="interests" value="sci" />Science </label>
-			<br/><label><input type="checkbox" name="interests" value="res" />Research</label>
-			<br/><label><input type="checkbox" name="interests" value="game" />Playing Games</label>
-			<br/></p>
-			<p>
+			
+			Interests (You can Choose multiple Options)
+			<br/>
+			<br/><label><input type="checkbox" name="interests" value="Ludo" />Cricket</label>
+			<br/><label><input type="checkbox" name="interests" value="sea" />Football</label>
+			<br/><label><input type="checkbox" name="interests" value="ani" />Hockey</label>
+			<br/><label><input type="checkbox" name="interests" value="sle" />Gaming </label>
+			<br/><label><input type="checkbox" name="interests" value="ply" />Reading</label>
+			<br/><label><input type="checkbox" name="interests" value="eat" />Writing</label>
+			<br/></br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upload your Photo</br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
 			Region
 			<select>
 				<option> Asia </option>
@@ -60,26 +60,23 @@
 				<option> South America </option>
 				<option> Australia </option>
 			</select>
-			<p> 
-			Upload your Photo
-			<p/>
+			
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
+		
 			<input type="file" value="Choose"/><br/>
 			<input type="image" value="upload" src="Choose.png" height="80" width ="110"/> 
-			
-			<p> 	
-			Comments
-			</p>	
-			<p>
+	</br>
+			 	
+			Comments </br>
 			<textarea name="Comments" rows="4" cols="40"> Enter your comments here...... </textarea>
 			<br/>
 			<input type="image" src="Sub.png" width="110" height="80" />
+			</p>
 	
 			</fieldset>
   
 		</form>
- 
 
-</body>
 
-</html>
-
+		</html>
