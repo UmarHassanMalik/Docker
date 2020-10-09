@@ -20,7 +20,7 @@ git clone https://github.com/UmarHassanMalik/DockerCode.git
 ls
 ```
 ```
-cd docker-slide-code/
+cd DockerCode
 ```
 ```
 ls
