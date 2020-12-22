@@ -17,13 +17,8 @@ sudo apt-get install git
 git clone https://github.com/UmarHassanMalik/DockerCode.git
 ```
 ```
-ls
-```
-```
 cd DockerCode
 ```
-```
-ls
 ```
 
 
